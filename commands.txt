@@ -1,0 +1,17 @@
+install playwright :
+npm init playwright@latest  
+
+run playwright test :
+npx playwright test       
+
+run playwright test with each step running on frontend:
+npx playwright test --headed
+
+check steps :
+npx playwright show-report 
+
+open playwright inspector : 
+npx playwright test --debug 
+
+playwright record and replay : 
+npx playwright codegen url-name
